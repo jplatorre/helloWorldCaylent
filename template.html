@@ -1,0 +1,5 @@
+{{define "hello"}}Hello, {{.}}!{{end}}
+
+t := &Template{
+    templates: template.Must(template.ParseGlob("public/views/*.html")),
+}
