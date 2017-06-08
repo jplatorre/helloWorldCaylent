@@ -19,7 +19,7 @@ func main() {
 	}
 }
 
-const AddForm = `<!doctype html><html><head></head><body style="background: #1CABE3;"><img src="https://dl.dropboxusercontent.com/u/804305/Caylent-Logo-White01.png" style="width: 300px;"></img><p style="padding-top: 100px;width: 100%;color: white;font-size: 80px;font-family: varela round, sans-serif;text-align: center;">Q & A</p><p style="text-align: center;color: white;font-size: 30px;position: absolute;bottom: 10px;width: 30%;left: 35%;font-family: varela round, sans-serif;">#DevOps is Now</p></body></html>`
+const AddForm = `<!doctype html><html><head></head><body style="background: #1CABE3;"><img src="https://dl.dropboxusercontent.com/u/804305/Caylent-Logo-White01.png" style="width: 300px;"></img><p style="padding-top: 100px;width: 100%;color: white;font-size: 80px;font-family: varela round, sans-serif;text-align: center;">Q & A</p><p style="text-align: center;color: white;font-size: 30px;position: absolute;bottom: 10px;width: 30%;left: 35%;font-family: varela round, sans-serif;">#Discovery</p></body></html>`
 
 
 func hello(w http.ResponseWriter, req *http.Request) {
